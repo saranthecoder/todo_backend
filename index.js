@@ -11,7 +11,7 @@ connectToMongoDB();
 const app = express();
 
 const corsOptions = {
-    origin: 'http://localhost:5173', // Replace with your frontend domain
+    origin: 'https://my123todo.netlify.app', // Replace with your frontend domain
 };
   
 app.use(cors(corsOptions));
